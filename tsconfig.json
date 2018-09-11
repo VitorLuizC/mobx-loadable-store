@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es2015",
+    "lib": [ "es2018" ],
+
+    // Module settings.
+    "module": "es2015",
+    "moduleResolution": "node",
+
+    // Definition settings.
+    "declaration": true,
+    "declarationDir": "types/",
+
+    // Decorators settings.
+    "experimentalDecorators": true,
+  },
+  "exclude": [
+    "types/",
+    "node_modules/"
+  ]
+}

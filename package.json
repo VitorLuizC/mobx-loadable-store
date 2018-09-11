@@ -1,0 +1,36 @@
+{
+  "name": "mobx-loadable-store",
+  "version": "0.0.0",
+  "description": "A store to handle loading states.",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "src/index.js",
+    "types/"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorLuizC/mobx-loadable-store.git"
+  },
+  "keywords": [
+    "mobx",
+    "store",
+    "mobx-store"
+  ],
+  "author": {
+    "url": "https://vitorluizc.github.io/",
+    "name": "Vitor Luiz Cavalcanti",
+    "email": "vitorluizc@outlook.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VitorLuizC/mobx-loadable-store/issues"
+  },
+  "homepage": "https://github.com/VitorLuizC/mobx-loadable-store#readme",
+  "devDependencies": {
+    "typescript": "^3.0.3"
+  }
+}
