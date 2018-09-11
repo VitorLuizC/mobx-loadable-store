@@ -2,14 +2,19 @@
   "name": "mobx-loadable-store",
   "version": "0.0.0",
   "description": "A store to handle loading states.",
-  "main": "src/index.js",
+  "cdn": "dist/mobx-loadable-store.js",
+  "main": "dist/mobx-loadable-store.cjs.js",
   "types": "types/index.d.ts",
+  "unpkg": "dist/mobx-loadable-store.js",
+  "module": "dist/mobx-loadable-store.es.js",
+  "jsdelivr": "dist/mobx-loadable-store.js",
+  "umd:main": "dist/mobx-loadable-store.js",
   "files": [
-    "src/index.js",
+    "dist/",
     "types/"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && bili src/index.js --format es,cjs,umd --banner --js buble"
   },
   "repository": {
     "type": "git",
@@ -31,6 +36,7 @@
   },
   "homepage": "https://github.com/VitorLuizC/mobx-loadable-store#readme",
   "devDependencies": {
+    "bili": "^3.1.2",
     "typescript": "^3.0.3"
   }
 }
