@@ -37,6 +37,10 @@
   "homepage": "https://github.com/VitorLuizC/mobx-loadable-store#readme",
   "devDependencies": {
     "bili": "^3.1.2",
+    "mobx": "^5.1.0",
     "typescript": "^3.0.3"
+  },
+  "peerDependencies": {
+    "mobx": "~5.0"
   }
 }
